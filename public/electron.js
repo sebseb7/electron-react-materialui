@@ -8,6 +8,8 @@ function createWindow() {
     autoHideMenuBar: true,
     width: 800,
     height: 600,
+	minWidth:500,
+	minHeight:500,
     webPreferences: {
       nodeIntegration: true,
     },
